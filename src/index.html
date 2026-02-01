@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-<header class="bg-white shadow-sm">
+<header class="bg-white shadow-sm overflow-hidden   ">
   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
     <div class="flex items-center gap-2">
       <div class="w-10 h-10 bg-red-600 text-white font-bold flex items-center justify-center rounded">
@@ -34,7 +34,7 @@
 </header>
 
 <section
-  class="relative bg-cover bg-center"
+  class="relative bg-cover bg-center overflow-hidden"
   style="background-image: url(./photo/1059\ 2.jpg);"
 >
   <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
@@ -469,13 +469,11 @@
         </div>
       </div>
 
-      <!-- Price -->
       <div class="mt-4">
         <p class="font-semibold text-lg">от 1 615 000 ₽</p>
         <p class="text-sm text-gray-500">Кредит от 115 000 ₽/мес.</p>
       </div>
 
-      <!-- Info -->
       <div class="flex justify-between text-xs text-gray-500 mt-3">
         <span class="flex gap-2"><img src="./photo/Group 268.png" alt=""> 115 л.с.</span>
         <span class="flex gap-2"><img src="./photo/Vector (14).png" alt=""> 5.3 л/100км</span>
@@ -483,7 +481,6 @@
         <span class="flex gap-2"><img src="./photo/Group (7).png" alt=""> 10.3 c</span>
       </div>
 
-      <!-- Buttons -->
       <div class="grid grid-cols-3 mt-4 rounded overflow-hidden">
         <button class="bg-red-600 text-white py-2 text-sm hover:bg-red-700 transition">
           Резерв онлайн
@@ -500,13 +497,441 @@
       Показать  еще
     </button>   
     </section>
-    \
     
 
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold">Наши подборки</h2>
+
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group">
+        <img src="./photo/Rectangle 438.png"
+             class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+          <h3 class="text-white text-lg font-semibold">
+            Семейные автомобили
+          </h3>
+          <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg w-fit hover:bg-red-600">
+            Посмотреть
+          </button>
+        </div>
+      </div>
+
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group border-4 border-blue-400">
+        <img src="./photo/Rectangle 440.png"
+             class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+          <h3 class="text-white text-lg font-semibold">
+            Автомобили для путешествий
+          </h3>
+          <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg w-fit hover:bg-red-600">
+            Посмотреть
+          </button>
+        </div>
+      </div>
+
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group">
+        <img src="./photo/Rectangle 439.png"
+             class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+          <h3 class="text-white text-lg font-semibold">
+            Городские автомобили
+          </h3>
+          <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg w-fit hover:bg-red-600">
+            Посмотреть
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
 
+  <section class="bg-gradient-to-r from-black via-gray-900 to-red-900 py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      
+      <div>
+        <img src="./photo/pngwing 3.png"
+             class="rounded-2xl shadow-xl">
+      </div>
+
+      <div class="text-white">
+        <h2 class="text-3xl font-bold mb-3">
+          ПЕРЕБЬЕМ ПРЕДЛОЖЕНИЯ ОТ КОНКУРЕНТОВ!
+        </h2>
+        <p class="mb-6 text-gray-300">
+          Скидки от 10 до 25% на стоимость автомобиля
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <input type="text"
+                 placeholder="Ваш телефон"
+                 class="px-4 py-3 rounded-lg text-black bg-white w-">
+          <button class="bg-red-600 px-6 py-3 rounded-lg hover:bg-red-700">
+            ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ
+          </button>
+        </div>
+
+        <p class="text-sm text-gray-400 mt-4">
+          Нажимая кнопку "Отправить" вы даете согласие на обработку персональных данных
+        </p>
+      </div>
+
+    </div>
+  </section>
+   
+     
+<section class="max-w-7xl mx-auto py-8 px-4">
+  <h2 class="text-2xl font-bold mb-6">Спецпредложения</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    
+    <div class="bg-white rounded-2xl shadow p-6 flex justify-between items-center"
+    style="background-image: url(./photo/Mask\ Group\ \(5\).png);">
+      <div>
+        <h3 class="font-semibold text-lg">Первый автомобиль</h3>
+        <p class="text-sm text-gray-500 mb-4">1,9% по льготной ставке</p>
+        <button class="bg-gray-200 px-4 py-2 rounded-lg text-sm">
+          Узнать больше
+        </button>
+            </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow p-6 flex justify-between items-center"
+    style="background-image: url(./photo/Mask\ Group\ \(6\).png);">
+      <div>
+        <h3 class="font-semibold text-lg">Семейный автомобиль</h3>
+        <p class="text-sm text-gray-500 mb-4">1,9% по льготной ставке</p>
+        <button class="bg-gray-200 px-4 py-2 rounded-lg text-sm">
+          Узнать больше
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow p-6 flex justify-between items-center"
+    style="background-image: url(./photo/Mask\ Group\ \(7\).png);">
+      <div>
+        <h3 class="font-semibold text-lg">Экспресс-кредит</h3>
+        <p class="text-sm text-gray-500 mb-4">1,9% по льготной ставке</p>
+        <button class="bg-gray-200 px-4 py-2 rounded-lg text-sm">
+          Узнать больше
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-4 pb-16">
+  <h2 class="text-3xl font-bold mb-8">Заявка на автокредит</h2>
+
+  <div class="grid lg:grid-cols-3 gap-8">
+    
+    <!-- Left Form -->
+    <div class="lg:col-span-2 bg-white p-8 rounded-2xl shadow">
+      
+      <!-- Selects -->
+      <div class="grid md:grid-cols-3 gap-4 mb-8">
+        <select class="border rounded-lg p-3 w-full">
+          <option>Марка</option>
+        </select>
+        <select class="border rounded-lg p-3 w-full">
+          <option>Модель</option>
+        </select>
+        <select class="border rounded-lg p-3 w-full">
+          <option>Комплектация</option>
+        </select>
+      </div>
 
 
+      <div class="mb-8">
+        <label class="block font-medium mb-2">Сумма кредита, руб</label>
+        <input type="range" class="w-full">
+      </div>
+
+      <div>
+        <label class="block font-medium mb-2">Срок кредита, мес.</label>
+        <input type="range" class="w-full">
+      </div>
+
+    </div>
+
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h3 class="text-xl font-bold mb-2">
+        Получить выгоду
+      </h3>
+      <p class="text-3xl font-bold text-red-600 mb-6">
+        300 000 ₽
+      </p>
+
+      <input type="text"
+             placeholder="Ваше имя"
+             class="w-full border rounded-lg p-3 mb-4">
+
+      <input type="tel"
+             placeholder="Ваш телефон"
+             class="w-full border rounded-lg p-3 mb-6">
+
+      <button class="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-xl font-semibold">
+        ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ
+      </button>
+
+      <p class="text-xs text-gray-500 mt-4">
+        Нажимая кнопку вы соглашаетесь на обработку персональных данных
+      </p>
+    </div>
+
+  </div>
+</section>
+
+   <div class="max-w-7xl mx-auto px-4 py-12 space-y-16">
+
+  <section>
+    <div class="flex justify-between items-center mb-8">
+      <h2 class="text-3xl font-bold">Банки-партнеры</h2>
+      <div class="flex gap-2">
+        <button class="w-10 h-10 rounded-lg bg-gray-200">‹</button>
+        <button class="w-10 h-10 rounded-lg bg-red-600 text-white">›</button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="bg-white rounded-2xl shadow p-6 flex items-center justify-center">
+        <img src="./photo/bank.png" alt="">
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 flex items-center justify-center">
+        <img src="./photo/bank (1).png" alt="">
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 flex items-center justify-center">
+        <img src="./photo/bank (2).png" alt="">
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 flex items-center justify-center">
+        <img src="./photo/bank (2).png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="flex justify-between items-center mb-8">
+      <h2 class="text-3xl font-bold">Нам доверяют</h2>
+      <div class="flex gap-2">
+        <button class="w-10 h-10 rounded-lg bg-gray-200">‹</button>
+        <button class="w-10 h-10 rounded-lg bg-red-600 text-white">›</button>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-4 gap-6 mb-12">
+
+      <div class="bg-white rounded-2xl shadow p-6 space-y-3">
+        <h3 class="font-semibold">Сайт отзывик</h3>
+        <p class="text-sm text-gray-500">Название автосалона</p>
+        <div class="flex justify-between items-center">
+          <span class="text-sm text-gray-600">Рекомендуют 90%</span>
+          <span class="bg-green-500 text-white px-3 py-1 rounded-lg text-sm">4.5</span>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 space-y-3">
+        <h3 class="font-semibold">Сайт отзывик</h3>
+        <p class="text-sm text-gray-500">Название автосалона</p>
+        <div class="flex justify-between items-center">
+          <span class="text-sm text-gray-600">Рекомендуют 90%</span>
+          <span class="bg-green-500 text-white px-3 py-1 rounded-lg text-sm">4.5</span>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 space-y-3">
+        <h3 class="font-semibold">Сайт отзывик</h3>
+        <p class="text-sm text-gray-500">Название автосалона</p>
+        <div class="flex justify-between items-center">
+          <span class="text-sm text-gray-600">Рекомендуют 90%</span>
+          <span class="bg-green-500 text-white px-3 py-1 rounded-lg text-sm">4.5</span>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 space-y-3">
+        <h3 class="font-semibold">Сайт отзывик</h3>
+        <p class="text-sm text-gray-500">Название автосалона</p>
+        <div class="flex justify-between items-center">
+          <span class="text-sm text-gray-600">Рекомендуют 90%</span>
+          <span class="bg-green-500 text-white px-3 py-1 rounded-lg text-sm">4.5</span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <div class="bg-white rounded-2xl shadow p-8 flex justify-between items-center">
+        <div>
+          <img src="./photo/yandex-maps-logo 1.png" alt="">
+          <p class="text-sm text-gray-500">Название автосалона</p>
+          <p class="text-sm text-gray-600 mt-2">Рекомендуют 90%</p>
+        </div>
+        <div class="bg-green-600 text-white text-3xl font-bold px-6 py-4 rounded-xl">
+          4.5
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-8 flex justify-between items-center">
+        <div>
+         <img src="./photo/Google_Maps_Logo 2.png" alt="">
+          <p class="text-sm text-gray-500">Название автосалона</p>
+          <p class="text-sm text-gray-600 mt-2">Рекомендуют 90%</p>
+        </div>
+        <div class="bg-green-600 text-white text-3xl font-bold px-6 py-4 rounded-xl">
+          4.1
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+  
+<section class="max-w-7xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold mb-6">Отзывы</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-white rounded-xl p-4 shadow">
+      <div class="bg-black rounded-lg h-40 flex items-center justify-center"
+      style="background-image: url(./photo/Group\ 673\ \(1\).png);">
+        
+        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center ">
+          ▶️
+        </div>
+      </div>
+      <h3 class="mt-4 font-semibold">Сергей Васильев</h3>
+      <p class="text-sm text-gray-600 mt-2">
+       «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+      </p>
+      <button class="mt-3 text-sm text-gray-700 border rounded-full px-4 py-1">
+        Подробнее
+      </button>
+    </div>
+
+    <div class="bg-white rounded-xl p-4 shadow">
+      <div class="bg-black rounded-lg h-40 flex items-center justify-center"
+      >
+        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+          ▶️
+        </div>
+      </div>
+      <h3 class="mt-4 font-semibold">Сергей Васильев</h3>
+      <p class="text-sm text-gray-600 mt-2">
+       «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+      </p>
+      <button class="mt-3 text-sm text-gray-700 border rounded-full px-4 py-1">
+        Подробнее
+      </button>
+    </div>
+
+    <div class="bg-white rounded-xl p-4 shadow">
+      <div class="bg-black rounded-lg h-40 flex items-center justify-center">
+        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+          ▶️
+        </div>
+      </div>
+      <h3 class="mt-4 font-semibold">Сергей Васильев</h3>
+      <p class="text-sm text-gray-600 mt-2">
+       «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+      </p>
+      <button class="mt-3 text-sm text-gray-700 border rounded-full px-4 py-1">
+        Подробнее
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold text-center mb-4">О компании</h2>
+  <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">
+   Мы располагаем огромной торговой площадкой более 5000 квадратных метров, у нас в наличии не менее 200 автомобилей как отечественного, так и иностранного производства. В штате автосалона «Альтера» работают настоящие профессионалы, которые знают особенности каждого конкретного автомобиля.
+  </p>
+
+  <div class="bg-gray-200 rounded-2xl overflow-hidden max-w-4xl mx-auto">
+    <div class="relative">
+      <img src="./photo/Rectangle 122.png" class="w-full" />
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white text-xl">
+          ▶️
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-4 py-10">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-semibold">Блог</h2>
+
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <div class="bg-white rounded-xl overflow-hidden shadow">
+      <img src="./photo/Rectangle 575.png" />
+      <div class="p-4">
+        <p class="text-xs text-gray-500">25 октября</p>
+        <h3 class="text-sm font-semibold mt-1">
+         Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+        </h3>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl overflow-hidden shadow">
+       <img src="./photo/Rectangle 575.png" />
+      <div class="p-4">
+        <p class="text-xs text-gray-500">25 октября</p>
+        <h3 class="text-sm font-semibold mt-1">
+         Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+        </h3>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl overflow-hidden shadow">
+      <img src="./photo/Rectangle 575.png" />
+      <div class="p-4">
+        <p class="text-xs text-gray-500">25 октября</p>
+        <h3 class="text-sm font-semibold mt-1">
+         Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+        </h3>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl overflow-hidden shadow">
+       <img src="./photo/Rectangle 575.png" />
+      <div class="p-4">
+        <p class="text-xs text-gray-500">25 октября</p>
+        <h3 class="text-sm font-semibold mt-1">
+         Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <section>
+      <div class="flex gap-10">
+        <p class="text-red-500 font-bold">Автосалон</p>
+        <p class="font-semibold">Трейд-ин</p>
+        <p class="font-semibold">Покупка</p>
+      </div>
+      <div class="mt-10 m-auto">
+        <h1 class="font-bold text-[30px]">Об автосалоне ABC</h1>
+        <p class="text-gray-600 text-[14px] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. <br> Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. <br> Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac <br> ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</p>
+      </div>
+ </section>
+  
+   
 
 </body>
 </html>
