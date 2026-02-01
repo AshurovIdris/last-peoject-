@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-<header class="bg-white shadow-sm">
+<header class="bg-white shadow-sm overflow-hidden   ">
   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
     <div class="flex items-center gap-2">
       <div class="w-10 h-10 bg-red-600 text-white font-bold flex items-center justify-center rounded">
@@ -34,7 +34,7 @@
 </header>
 
 <section
-  class="relative bg-cover bg-center"
+  class="relative bg-cover bg-center overflow-hidden"
   style="background-image: url(./photo/1059\ 2.jpg);"
 >
   <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
@@ -500,9 +500,96 @@
       Показать  еще
     </button>   
     </section>
-    \
     
 
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold">Наши подборки</h2>
+
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group">
+        <img src="./photo/Rectangle 438.png"
+             class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+          <h3 class="text-white text-lg font-semibold">
+            Семейные автомобили
+          </h3>
+          <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg w-fit hover:bg-red-600">
+            Посмотреть
+          </button>
+        </div>
+      </div>
+
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group border-4 border-blue-400">
+        <img src="./photo/Rectangle 440.png"
+             class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+          <h3 class="text-white text-lg font-semibold">
+            Автомобили для путешествий
+          </h3>
+          <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg w-fit hover:bg-red-600">
+            Посмотреть
+          </button>
+        </div>
+      </div>
+
+      <div class="relative rounded-2xl overflow-hidden shadow-lg group">
+        <img src="./photo/Rectangle 439.png"
+             class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+          <h3 class="text-white text-lg font-semibold">
+            Городские автомобили
+          </h3>
+          <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg w-fit hover:bg-red-600">
+            Посмотреть
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="bg-gradient-to-r from-black via-gray-900 to-red-900 py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      
+      <!-- Image -->
+      <div>
+        <img src="./photo/pngwing 3.png"
+             class="rounded-2xl shadow-xl">
+      </div>
+
+      <!-- Content -->
+      <div class="text-white">
+        <h2 class="text-3xl font-bold mb-3">
+          ПЕРЕБЬЕМ ПРЕДЛОЖЕНИЯ ОТ КОНКУРЕНТОВ!
+        </h2>
+        <p class="mb-6 text-gray-300">
+          Скидки от 10 до 25% на стоимость автомобиля
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <input type="text"
+                 placeholder="Ваш телефон"
+                 class="px-4 py-3 rounded-lg text-black bg-white w-">
+          <button class="bg-red-600 px-6 py-3 rounded-lg hover:bg-red-700">
+            ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ
+          </button>
+        </div>
+
+        <p class="text-sm text-gray-400 mt-4">
+          Нажимая кнопку "Отправить" вы даете согласие на обработку персональных данных
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+   
 
 
 
